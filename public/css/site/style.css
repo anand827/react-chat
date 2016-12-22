@@ -11510,3 +11510,59 @@ header {
   width: 100%;
   float: left;
 }
+
+.mobileApp__users {
+  background: #0c2f3e;
+  float: left;
+  width: 50%;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.mobileApp__usersTitle {
+  color: #fff;
+}
+
+.mobileApp__usersListHead {
+  color: #fff;
+}
+
+.mobileApp__usersList span {
+  font-size: 18px;
+  font-size: 1.125em;
+  padding-right: 5px;
+}
+
+.mobileApp__message {
+  background: #48719E;
+  float: left;
+  width: 50%;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.mobileApp__messageForm {
+  width: 100%;
+  float: left;
+}
+
+.mobileApp__messageForm input {
+  width: 100%;
+  line-height: 20px;
+  font-size: 16px;
+  background: #FFF;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.mobileApp__nameChangeForm {
+  width: 100%;
+  float: left;
+  display: none;
+}
+
+.mobileApp__nameChangeForm--active {
+  display: block;
+}
