@@ -15,6 +15,9 @@ gulp.task('sass', function() {
             return f.base;
         }))
         .on('error', reportError)
+});
+//live reload
+gulp.task('reload', function() {
     browserSync.init({
         //proxy: "/",
         server: {
@@ -23,10 +26,6 @@ gulp.task('sass', function() {
     });
     gulp.watch('public/css/site/**/*.scss', ['sass']);
     gulp.watch(['public/css/style.css', 'public/js/site/*.js', '*.html']).on('change', browserSync.reload);
-});
-//live reload
-gulp.task('reload', function() {
-
 });
 //Default task
 gulp.task('default', function() {
