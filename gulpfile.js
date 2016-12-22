@@ -30,6 +30,7 @@ gulp.task('reload', function() {
 //Default task
 gulp.task('default', function() {
     gulp.watch('css/site/**/*.scss', ['sass']);
+    gulp.watch('public/css/site/**/*.scss', ['sass']);
 });
 //Error function
 function reportError(error) {
