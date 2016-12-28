@@ -11560,9 +11560,4 @@ header {
 .mobileApp__nameChangeForm {
   width: 100%;
   float: left;
-  display: none;
-}
-
-.mobileApp__nameChangeForm--active {
-  display: block;
 }

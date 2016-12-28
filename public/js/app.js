@@ -111,12 +111,9 @@
                 return React.createElement(
                     'div', { className: 'message_form mobileApp__messageForm' },
                     React.createElement(
-                        'h3'
-                    ),
-                    React.createElement(
-                        'a', { href: 'javascript:;', className: 'js--mobileApp__changeNameLink mobileApp__changeNameLink' },
+                        'h3',
                         null,
-                        ' Change Username '
+                        ' Type your Message: '
                     ),
                     React.createElement(
                         'form', { onSubmit: this.handleSubmit },
